@@ -62,13 +62,16 @@ const Todo = () => {
 <center>
 {
     todos.map((item)=> {
-        return   <h5>{item.title}
-        <br></br>
-{item.name}
+        return   <h5>
+       
+{`Name: ${item.name}`}
 <br></br>
-{item.gender}
+{`Department: ${item.department}`}
 <br></br>
-{item.department}
+{`Gender: ${item.gender}`}
+
+<br></br>
+{`Role: ${item.title}`}
         </h5>;
        
    
